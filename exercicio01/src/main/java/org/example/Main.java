@@ -22,11 +22,11 @@ public class Main {
 
         int answer02 = reader.nextInt();
 
-        int[][] filmDict = {
+        int[][] filmMap = {
                 {0,1},
                 {2,3}};
 
-        String recommended = Films[filmDict[answer01-1][answer02 -1]];
+        String recommended = Films[filmMap[answer01-1][answer02 -1]];
 
         System.out.println("recomendo assistir:" + " " + recommended);
 
