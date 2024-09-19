@@ -1,4 +1,4 @@
-package controllers;
+package com.example.exercicio08.controllers;
 
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.client.RestClient;
